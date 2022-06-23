@@ -4,7 +4,7 @@
 
 ## About
 
-> To download the dataset [click here](https://drive.google.com/file/d/1IsK268zLnXB2Qq0X2LgNDwBZRuVwvjRx/view?usp=sharing)
+> To download the dataset [click here](https://drive.google.com/file/d/1ispDBF00FynmQLKjpNQt0flajRBa91X1/view?usp=sharing)
 
 The construction dataset was created and annotated by students of TSAI. We wanted to use this dataset to train DETR Panoptic segmentation model. For this purpose, we have only annotated the things category here as annotating the stuff category would take lot of time and effort. The annotation for things was done using [CVAT](https://github.com/openvinotoolkit/cvat) tool and was stored in **COCO 1.0** format. We then decided to use Pre-trained DETR Panoptic segmentation model (trained on the COCO dataset) to annotate the stuff class and later merge both annotations to create the final panoptic segmentation ground truth.  
 
